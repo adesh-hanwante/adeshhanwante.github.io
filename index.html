@@ -1008,6 +1008,26 @@
 .contact-form textarea{min-height:160px}
 .contact-form button{background:#F5C518;color:#1a1a1a;border:none;padding:16px;font-weight:800;cursor:pointer}
 
+
+/* === MOBILE RESPONSIVE ENHANCEMENTS === */
+@media (max-width:768px){
+  .hero-title{font-size:clamp(52px,18vw,80px);}
+  .hero-right{height:320px}
+  .photo-cutout,.photo-shadow-block,.photo-outline-frame{width:220px;height:290px}
+  .about-photo-wrap{max-width:260px;margin:auto}
+  .work-header{flex-direction:column;gap:16px}
+  .contact-section{grid-template-columns:1fr!important;padding:50px 24px!important}
+  .contact-left h2{font-size:42px}
+  .showreel-section{padding:50px 24px!important}
+  .showreel-header h2{font-size:42px}
+  .showreel-video iframe{height:240px!important}
+  .footer-bottom{flex-direction:column;gap:12px;text-align:center}
+  .year-tag,.section-num,.cursor-glow{display:none}
+}
+@media (max-width:480px){
+  .cards-row,.stats-bar{grid-template-columns:1fr!important}
+  .hero{padding:80px 18px 40px}
+}
 </style>
 </head>
 <body>
